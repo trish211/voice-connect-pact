@@ -1,5 +1,5 @@
 # voice-connect-pact
-This is a consumer-driven contracts testing using Pact framework written in Java langauge. The test comprises of the consumer, provider and micro service application. The micro service application can be found in voice-connect-ms repository. As these are all dependent on SBT plugin tools, it is essential to install SBT on your system. 
+This is a consumer-driven contracts testing using Pact framework written in Java langauge. The test comprises of the consumer, provider and micro service application. The micro service application can be found in voice-connect-ms repository. As these are all dependent on SBT plugin tools, it is essential to install SBT on your system. The build.sbt file is provided in the package.
 
 You may use the "Advanced REST client" application to test the HTTP request and responses received when running the applications. The ConsumerClient.java file is provided as well.
 
