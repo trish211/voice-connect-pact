@@ -5,9 +5,11 @@ You may use the "Advanced REST client" application to test the HTTP request and 
 
 How does it work?
 
-You must first generate your Pact specification file by running the consumer test application (ConsumerPactTest.java). You must create a copy of your Pact file in your provider test application (e.g. placing the Pact file under the "Pacts" directory). Run the provider test application (ProviderPactTest.java) with your Pact file against the micro service application.
+You must first generate your Pact specification file by running the consumer test application (ConsumerPactTest.java). The ConsumerPactTest.java file includes the RegexMatcher.java file. 
 
-The ConsumerPactTest.java file includes the RegexMatcher.java file.
+You must create a copy of your Pact file in your provider test application (e.g. placing the Pact file under the "Pacts" directory). Run the provider test application (ProviderPactTest.java) with your Pact file against the micro service application.
+
+
 
 
 
