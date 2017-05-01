@@ -5,7 +5,7 @@ How does it work?
 
 You must first generate your Pact specification file by running the consumer test application (ConsumerPactTest.java). You must create a copy of your Pact file in your provider test application (e.g. placing the Pact file under the "Pacts" directory). Run the provider test application (ProviderPactTest.java) with your Pact file against the micro service application.
 
-
+The ProviderPactTest includes
 
 
 
