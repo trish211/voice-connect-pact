@@ -3,13 +3,13 @@ This is a consumer-driven contracts testing using Pact framework written in Java
 
 You may use the "Advanced REST client" application to test the HTTP request and responses received when running the applications. The ConsumerClient.java file is provided as well.
 
-How does it work?
+ # How does it work?
 
+# ConsumerPactTest.java
 You must first generate your Pact specification file by running the consumer test application (ConsumerPactTest.java). The ConsumerPactTest.java file includes the RegexMatcher.java file. 
 
+# ProviderPactTest.java
 You must create a copy of your Pact file in your provider test application (e.g. placing the Pact file under the "Pacts" directory). Run the provider test application (ProviderPactTest.java) with your Pact file against the micro service application.
-
-
 
 
 
